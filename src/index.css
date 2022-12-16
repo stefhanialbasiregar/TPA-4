@@ -1,0 +1,158 @@
+@import url('https://fonts.googleapis.com/css?family=Poppins:300,400,500,600,700,800,900&display=swap');
+
+/* base styles */
+* {
+  margin: 0;
+  font-family: "Poppins";
+}
+
+/*navbar*/
+.navbar {
+  padding: 20px;
+  display: flex;
+  align-items: center;
+  max-width: 1200px;
+  margin: 0 auto;
+  border-bottom: 1px solid #f2f2f2;
+}
+.navbar h1 {
+  color: #112D4E;;
+}
+.navbar .links {
+  margin-left: auto;
+}
+.navbar a {
+  margin-left: 16px;
+  text-decoration: none;
+  padding: 6px;
+}
+.navbar a:hover {
+  color: #fff;
+  background: #112D4E;
+  border-radius: 17px;
+}
+
+/*blog*/
+.content {
+  max-width: 990px;
+  margin: 40px auto;
+  padding: 30px;
+}
+
+.blog-preview {
+  padding: 10px 16px;
+  margin: 20px 0;
+  border-bottom: 1px solid #fafafa;
+}
+.blog-preview:hover {
+  box-shadow: 1px 3px 5px #3F72AF;
+}
+.blog-preview h2 {
+  font-size: 20px;
+  color: #112D4E;;
+  margin-bottom: 8px;
+}
+
+.blog a{
+  color: #112D4E;
+  text-decoration: none;
+}
+
+/*home*/
+.home h1{
+  color: #112D4E;
+}
+
+.home img{
+  margin-bottom: -120px; 
+  margin-top: 100px;
+}
+
+.page-container{
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
+}
+
+.content-wrap{
+  flex: 1;
+}
+
+/*about*/
+.about h2{
+  color: #112D4E;
+  font-size: x-large;
+}
+
+.about p{
+  padding-bottom: 50px;
+}
+
+/*footer*/
+footer{
+  margin-top: 150px;
+  padding: 50px;
+  background: #112D4E;
+  color: #DBE2EF;
+  display: flex;
+  max-width: 100%;
+  margin: 0 auto;
+}
+
+footer div{
+  text-align: center;
+
+}
+
+.col-2{
+  flex-grow: 2;
+  margin-left: 50px;
+}
+
+.col-2 label{
+  margin-right: 20px;
+}
+
+footer div h3{
+  font-weight: 600;
+  margin-bottom: 30px;
+  letter-spacing: 1px;
+}
+
+.col-1 a{
+  display: block;
+  text-decoration: none;
+  color: #DBE2EF;
+  margin-bottom: 10px;
+}
+
+.social-icon{
+  margin-top: 30px;
+}
+
+.social-icon i{
+  font-size: 30px;
+  margin: 5px;
+  cursor: pointer;
+}
+
+.col-2 button{
+  background: transparent;
+  border: 2px solid #DBE2EF;
+  color: #DBE2EF;
+  border-radius: 30px;
+  padding: 10px 30px;
+  font-size: 15px;
+  cursor: pointer;
+}
+
+.col-2 input {
+  width: 380px;
+    height: 45px;
+    border-radius: 4px;
+    text-align: center;
+    margin-top: 10px;
+    margin-bottom: 40px;
+    outline: none;
+    border: none;
+}
